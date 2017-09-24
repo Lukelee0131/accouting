@@ -1,0 +1,30 @@
+.btn{
+	width: 80%;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+}
+#titleImg{
+	width: 90%;
+}
+body{
+	text-align: center;
+}
+/* @font-face {
+    font-family: myFont;
+    src: url("../font/myFont.ttf");
+} */
+h1{
+	font-family: myFont;
+}
+.form-control{
+	width: 90%;
+	margin: auto;
+}
+th{
+	text-align: center;
+}
+.little{
+	height: 40px;
+	font-size: 20px;
+}
