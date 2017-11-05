@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="js/fdb-all.min.js"></script>
+    <script type="text/javascript" src="js/lookup.js"></script>
+    <title></title>
+</head>
+<body>
+    <h1>支出查詢</h1>
+    <input type="radio" name="date" value="curMonth" > 本月份 <br>
+    <input type="radio" name="date" value="time"> 指定日期 <br>
+    <input type="date" value="" id="fromTime"> - <input type="date" value="" id="toTime"><br>
+    <button value="" class="btn btn-primary little" onclick="Search()">查詢</button>
+    <table class="table table-striped">
+       <thead>
+           <th>類別</th>
+           <th>金額</th>
+           <th>比例</th>
+       </thead>
+       <tbody id="lookupTable1">
+           <tr>
+               <td>吃的</td>
+               <td>0</td>
+               <td>0%</td>
+           </tr>
+           <tr>
+               <td>玩的</td>
+               <td>0</td>
+               <td>0%</td>
+           </tr>
+           <tr>
+               <td>其他
+               </td>
+               <td>0</td>
+               <td>0%</td>
+           </tr>
+           <tr>
+               <td>統計</td>
+               <td>0</td>
+               <td>100%</td>
+           </tr>
+       </tbody>
+    </table>
+    <table class="table table-striped">
+       <thead>
+           <th>日期</th>
+           <th>項目</th>
+           <th>類別</th>
+           <th>金錢</th>
+       </thead>
+       <tbody id="lookupTable2">
+
+       </tbody>
+    </table>
+</body>
+</html>
