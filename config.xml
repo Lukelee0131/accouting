@@ -1,0 +1,12 @@
+<widget id="com.example.hello" version="0.0.1">
+        <name>我的記賬</name>
+        <description>
+         My first play
+        </description>
+        <author email="dev@callback.apache.org" href="http://cordova.io">
+            Apache Cordova Team
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+        <icon src="icon.png" />
+    </widget>
